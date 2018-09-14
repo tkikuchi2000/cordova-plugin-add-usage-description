@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-add-usage-description",
+  "version": "1.0.0",
+  "description": "Cordova Add Usage Description Plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkikuchi2000/cordova-plugin-add-usage-description.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-add-usage-description",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "usage description"
+  ],
+  "dependencies": {
+    "cordova-plugin-localization-strings": "^2.0.0"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    }
+  ],
+  "author": "tkikuchi2000 <tkikuchi2000@gmail.com> (https://github.com/tkikuchi2000)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkikuchi2000/cordova-plugin-add-usage-description/issues"
+  },
+  "homepage": "https://github.com/tkikuchi2000/cordova-plugin-add-usage-description#readme"
+}

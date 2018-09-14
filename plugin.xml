@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordova-plugin-add-usage-description" version="1.0.0">
+  <name>Add Usage Description</name>
+  <description>Add Usage Description to Info.plist</description>
+  <author>tkikuchi2000@gmail.com</author>
+  <license>MIT</license>
+  <keywords>Usage Description Info.plist</keywords>
+
+  <engines>
+    <engine name="cordova" version=">=6.0.0" />
+  </engines>
+
+  <!-- ios -->
+  <platform name="ios">
+    <config-file parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
+      <string>use location</string>
+    </config-file>
+    <config-file parent="NSLocationAlwaysUsageDescription" target="*-Info.plist">
+      <string>use location</string>
+    </config-file>
+  </platform>
+
+</plugin>
