@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-  id="cordova-plugin-add-usage-description" version="1.1.0">
+  id="cordova-plugin-add-usage-description" version="1.1.1">
   <name>Add Usage Description</name>
   <description>Add Usage Description to Info.plist</description>
   <author>tkikuchi2000@gmail.com</author>

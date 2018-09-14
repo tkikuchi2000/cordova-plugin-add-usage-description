@@ -97,7 +97,7 @@ module.exports = function(context) {
       if (_.has(descJson, "descriptions") && descJson.descriptions.length >= 0) {
         // Info.plist へ書込み
         var plistName =  getTargetIosProjName() + '-Info.plist';
-        var plistFilePath = path.join(getTargetIosDir() + "/Resources", plistName);
+        var plistFilePath = path.join(getTargetIosDir(), plistName);
         updatePlist(plistFilePath, descJson.descriptions);
       }
     });
