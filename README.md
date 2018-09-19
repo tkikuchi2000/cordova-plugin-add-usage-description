@@ -7,7 +7,7 @@ Add usage description to Info.plist
     
 Install the plugin by fetching the dependencies
 
-    $ cordova plugin add https://github.com/tkikuchi2000/cordova-plugin-add-usage-description.git#1.1.2
+    $ cordova plugin add https://github.com/tkikuchi2000/cordova-plugin-add-usage-description.git#1.1.3
 
 Modify your project root to have the following structure:
 
