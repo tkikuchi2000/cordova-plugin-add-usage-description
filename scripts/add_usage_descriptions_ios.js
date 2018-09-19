@@ -99,6 +99,7 @@ module.exports = function(context) {
         var plistName =  getTargetIosProjName() + '-Info.plist';
         var plistFilePath = path.join(getTargetIosDir(), plistName);
         updatePlist(plistFilePath, descJson.descriptions);
+        deferred.resolve();
       }
     });
   }).catch(function(err) {
